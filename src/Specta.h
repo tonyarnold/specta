@@ -1,10 +1,17 @@
 #import <Foundation/Foundation.h>
 #import "SpectaSupport.h"
+
+#ifdef XCT_EXPORT
+#import "SPTXCTestCase.h"
+#import "XCTestRun+Specta.h"
+#else
 #import "SPTSenTestCase.h"
+#import "SenTestRun+Specta.h"
+#endif
+
 #import "SPTSpec.h"
 #import "SPTExampleGroup.h"
 #import "SPTSharedExampleGroups.h"
-#import "SenTestRun+Specta.h"
 
 @interface Specta : NSObject
 @end

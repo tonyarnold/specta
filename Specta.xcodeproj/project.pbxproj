@@ -9,6 +9,30 @@
 /* Begin PBXBuildFile section */
 		372B8853169A31F0005FBE0C /* AsyncSpecTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 372B8852169A31F0005FBE0C /* AsyncSpecTest.m */; };
 		372B8854169A31F0005FBE0C /* AsyncSpecTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 372B8852169A31F0005FBE0C /* AsyncSpecTest.m */; };
+		906FAFA01817FE5C0012DC1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB2A6618173DFC00C5461C /* XCTest.framework */; };
+		906FAFA11817FE620012DC1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB2A6618173DFC00C5461C /* XCTest.framework */; };
+		90FB2A6718173DFC00C5461C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB2A6618173DFC00C5461C /* XCTest.framework */; };
+		90FB2A6818173E0500C5461C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB2A6618173DFC00C5461C /* XCTest.framework */; };
+		90FB2A6B18173E4200C5461C /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A6918173E4200C5461C /* XCTestCase+Specta.h */; };
+		90FB2A6C18173E4200C5461C /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A6918173E4200C5461C /* XCTestCase+Specta.h */; };
+		90FB2A6D18173E4200C5461C /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A6A18173E4200C5461C /* XCTestCase+Specta.m */; };
+		90FB2A6E18173E4200C5461C /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A6A18173E4200C5461C /* XCTestCase+Specta.m */; };
+		90FB2A7118173E7A00C5461C /* SPTXCTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A6F18173E7A00C5461C /* SPTXCTestCase.h */; };
+		90FB2A7218173E7A00C5461C /* SPTXCTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A6F18173E7A00C5461C /* SPTXCTestCase.h */; };
+		90FB2A7318173E7A00C5461C /* SPTXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A7018173E7A00C5461C /* SPTXCTestCase.m */; };
+		90FB2A7418173E7A00C5461C /* SPTXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A7018173E7A00C5461C /* SPTXCTestCase.m */; };
+		90FB2A791817407E00C5461C /* XCTestLog+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A771817407E00C5461C /* XCTestLog+Specta.h */; };
+		90FB2A7A1817407E00C5461C /* XCTestLog+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A771817407E00C5461C /* XCTestLog+Specta.h */; };
+		90FB2A7B1817407E00C5461C /* XCTestLog+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A781817407E00C5461C /* XCTestLog+Specta.m */; };
+		90FB2A7C1817407E00C5461C /* XCTestLog+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A781817407E00C5461C /* XCTestLog+Specta.m */; };
+		90FB2A7F181740A800C5461C /* XCTestRun+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A7D181740A800C5461C /* XCTestRun+Specta.h */; };
+		90FB2A80181740A800C5461C /* XCTestRun+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A7D181740A800C5461C /* XCTestRun+Specta.h */; };
+		90FB2A81181740A800C5461C /* XCTestRun+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A7E181740A800C5461C /* XCTestRun+Specta.m */; };
+		90FB2A82181740A800C5461C /* XCTestRun+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A7E181740A800C5461C /* XCTestRun+Specta.m */; };
+		90FB2A851817412F00C5461C /* SPTXCTestInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A831817412F00C5461C /* SPTXCTestInvocation.h */; };
+		90FB2A861817412F00C5461C /* SPTXCTestInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FB2A831817412F00C5461C /* SPTXCTestInvocation.h */; };
+		90FB2A871817412F00C5461C /* SPTXCTestInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A841817412F00C5461C /* SPTXCTestInvocation.m */; };
+		90FB2A881817412F00C5461C /* SPTXCTestInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FB2A841817412F00C5461C /* SPTXCTestInvocation.m */; };
 		CD564BEF17B09D83003942F5 /* CustomReporterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD564BEE17B09D83003942F5 /* CustomReporterTest.m */; };
 		CD564BF017B09D83003942F5 /* CustomReporterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD564BEE17B09D83003942F5 /* CustomReporterTest.m */; };
 		CDB75B34176E427900FF6631 /* SenTestLog+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB75B32176E427900FF6631 /* SenTestLog+Specta.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -172,6 +196,17 @@
 
 /* Begin PBXFileReference section */
 		372B8852169A31F0005FBE0C /* AsyncSpecTest.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = AsyncSpecTest.m; sourceTree = "<group>"; tabWidth = 2; };
+		90FB2A6618173DFC00C5461C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90FB2A6918173E4200C5461C /* XCTestCase+Specta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+Specta.h"; sourceTree = "<group>"; };
+		90FB2A6A18173E4200C5461C /* XCTestCase+Specta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+Specta.m"; sourceTree = "<group>"; };
+		90FB2A6F18173E7A00C5461C /* SPTXCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTXCTestCase.h; sourceTree = "<group>"; };
+		90FB2A7018173E7A00C5461C /* SPTXCTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTXCTestCase.m; sourceTree = "<group>"; };
+		90FB2A771817407E00C5461C /* XCTestLog+Specta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestLog+Specta.h"; sourceTree = "<group>"; };
+		90FB2A781817407E00C5461C /* XCTestLog+Specta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestLog+Specta.m"; sourceTree = "<group>"; };
+		90FB2A7D181740A800C5461C /* XCTestRun+Specta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestRun+Specta.h"; sourceTree = "<group>"; };
+		90FB2A7E181740A800C5461C /* XCTestRun+Specta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestRun+Specta.m"; sourceTree = "<group>"; };
+		90FB2A831817412F00C5461C /* SPTXCTestInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTXCTestInvocation.h; sourceTree = "<group>"; };
+		90FB2A841817412F00C5461C /* SPTXCTestInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTXCTestInvocation.m; sourceTree = "<group>"; };
 		CD564BEE17B09D83003942F5 /* CustomReporterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomReporterTest.m; sourceTree = "<group>"; };
 		CDB75B32176E427900FF6631 /* SenTestLog+Specta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestLog+Specta.h"; sourceTree = "<group>"; };
 		CDB75B33176E427900FF6631 /* SenTestLog+Specta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestLog+Specta.m"; sourceTree = "<group>"; };
@@ -283,6 +318,7 @@
 			files = (
 				E9B777E314BA313A00D8DC76 /* Foundation.framework in Frameworks */,
 				E9B777E114BA312600D8DC76 /* SenTestingKit.framework in Frameworks */,
+				90FB2A6818173E0500C5461C /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +326,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906FAFA11817FE620012DC1F /* XCTest.framework in Frameworks */,
 				E9B777F614BA320D00D8DC76 /* Foundation.framework in Frameworks */,
 				E9B777F514BA320400D8DC76 /* SenTestingKit.framework in Frameworks */,
 				E9B777BB14BA294C00D8DC76 /* libSpecta-iOS.a in Frameworks */,
@@ -303,6 +340,7 @@
 			files = (
 				E9B777D414BA306F00D8DC76 /* Foundation.framework in Frameworks */,
 				E9D96A5614B6BF0A007D9521 /* SenTestingKit.framework in Frameworks */,
+				90FB2A6718173DFC00C5461C /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +348,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906FAFA01817FE5C0012DC1F /* XCTest.framework in Frameworks */,
 				E9B777F714BA321400D8DC76 /* Foundation.framework in Frameworks */,
 				E9B777F314BA31FC00D8DC76 /* SenTestingKit.framework in Frameworks */,
 				E9D96A4014B6B8AB007D9521 /* libSpecta.a in Frameworks */,
@@ -320,6 +359,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90FB2A751817404C00C5461C /* SenTestingKit */ = {
+			isa = PBXGroup;
+			children = (
+				CDB75B4A176E6BA900FF6631 /* SenTestCase+Specta.h */,
+				CDB75B4B176E6BA900FF6631 /* SenTestCase+Specta.m */,
+				CDB75B32176E427900FF6631 /* SenTestLog+Specta.h */,
+				CDB75B33176E427900FF6631 /* SenTestLog+Specta.m */,
+				CDB75B44176E69F000FF6631 /* SenTestRun+Specta.h */,
+				CDB75B45176E69F000FF6631 /* SenTestRun+Specta.m */,
+				E9B7777F14B9E15300D8DC76 /* SPTSenTestCase.h */,
+				E9B7778114B9E15A00D8DC76 /* SPTSenTestCase.m */,
+				E944CA2814C4B5E300821DED /* SPTSenTestInvocation.h */,
+				E944CA2B14C4B5F600821DED /* SPTSenTestInvocation.m */,
+			);
+			name = SenTestingKit;
+			sourceTree = "<group>";
+		};
+		90FB2A761817405400C5461C /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				90FB2A6F18173E7A00C5461C /* SPTXCTestCase.h */,
+				90FB2A7018173E7A00C5461C /* SPTXCTestCase.m */,
+				90FB2A6918173E4200C5461C /* XCTestCase+Specta.h */,
+				90FB2A6A18173E4200C5461C /* XCTestCase+Specta.m */,
+				90FB2A771817407E00C5461C /* XCTestLog+Specta.h */,
+				90FB2A781817407E00C5461C /* XCTestLog+Specta.m */,
+				90FB2A7D181740A800C5461C /* XCTestRun+Specta.h */,
+				90FB2A7E181740A800C5461C /* XCTestRun+Specta.m */,
+				90FB2A831817412F00C5461C /* SPTXCTestInvocation.h */,
+				90FB2A841817412F00C5461C /* SPTXCTestInvocation.m */,
+			);
+			name = XCTest;
+			sourceTree = "<group>";
+		};
 		E9B777DC14BA30CE00D8DC76 /* macosx */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +412,7 @@
 		E9D9420314B8B42A00CD833A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				90FB2A751817404C00C5461C /* SenTestingKit */,
 				E9D9420414B8B42A00CD833A /* Specta-Prefix.pch */,
 				E9D9420514B8B42A00CD833A /* Specta.h */,
 				E9D9420614B8B42A00CD833A /* Specta.m */,
@@ -346,28 +420,19 @@
 				E944CA2E14C4B70000821DED /* SpectaTypes.h */,
 				E90EF6DD169DD75600A819CC /* SpectaUtility.h */,
 				E90EF6E0169DD76400A819CC /* SpectaUtility.m */,
-				E9D9420C14B8B42A00CD833A /* SPTSpec.h */,
-				E9D9420D14B8B42A00CD833A /* SPTSpec.m */,
+				CDF6BA4C176D3F6100212B6A /* SPTDefaultReporter.h */,
+				CDF6BA4D176D3F6100212B6A /* SPTDefaultReporter.m */,
 				E9D9420714B8B42A00CD833A /* SPTExample.h */,
 				E9D9420814B8B42A00CD833A /* SPTExample.m */,
 				E9D9420914B8B42A00CD833A /* SPTExampleGroup.h */,
 				E9D9420A14B8B42A00CD833A /* SPTExampleGroup.m */,
-				E9D3DED9157A3F340054978E /* SPTSharedExampleGroups.h */,
-				E9D3DEDC157A3F470054978E /* SPTSharedExampleGroups.m */,
-				E9B7777F14B9E15300D8DC76 /* SPTSenTestCase.h */,
-				E9B7778114B9E15A00D8DC76 /* SPTSenTestCase.m */,
-				E944CA2814C4B5E300821DED /* SPTSenTestInvocation.h */,
-				E944CA2B14C4B5F600821DED /* SPTSenTestInvocation.m */,
 				CDF6BA34176CF53300212B6A /* SPTReporter.h */,
 				CDF6BA35176CF53300212B6A /* SPTReporter.m */,
-				CDF6BA4C176D3F6100212B6A /* SPTDefaultReporter.h */,
-				CDF6BA4D176D3F6100212B6A /* SPTDefaultReporter.m */,
-				CDB75B32176E427900FF6631 /* SenTestLog+Specta.h */,
-				CDB75B33176E427900FF6631 /* SenTestLog+Specta.m */,
-				CDB75B44176E69F000FF6631 /* SenTestRun+Specta.h */,
-				CDB75B45176E69F000FF6631 /* SenTestRun+Specta.m */,
-				CDB75B4A176E6BA900FF6631 /* SenTestCase+Specta.h */,
-				CDB75B4B176E6BA900FF6631 /* SenTestCase+Specta.m */,
+				E9D3DED9157A3F340054978E /* SPTSharedExampleGroups.h */,
+				E9D3DEDC157A3F470054978E /* SPTSharedExampleGroups.m */,
+				E9D9420C14B8B42A00CD833A /* SPTSpec.h */,
+				E9D9420D14B8B42A00CD833A /* SPTSpec.m */,
+				90FB2A761817405400C5461C /* XCTest */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -505,6 +570,7 @@
 				E9B777DC14BA30CE00D8DC76 /* macosx */,
 				E9B777DD14BA30E100D8DC76 /* ios */,
 				E9D96A3B14B6B8AB007D9521 /* SenTestingKit.framework */,
+				90FB2A6618173DFC00C5461C /* XCTest.framework */,
 			);
 			name = frameworks;
 			sourceTree = "<group>";
@@ -519,15 +585,20 @@
 				E90EF6DF169DD75600A819CC /* SpectaUtility.h in Headers */,
 				E9B777F914BA329400D8DC76 /* Specta.h in Headers */,
 				E9B777FA14BA329400D8DC76 /* SpectaSupport.h in Headers */,
+				90FB2A6C18173E4200C5461C /* XCTestCase+Specta.h in Headers */,
 				E9B777F814BA329400D8DC76 /* Specta-Prefix.pch in Headers */,
+				90FB2A7A1817407E00C5461C /* XCTestLog+Specta.h in Headers */,
 				E9B777FB14BA329400D8DC76 /* SPTSpec.h in Headers */,
+				90FB2A80181740A800C5461C /* XCTestRun+Specta.h in Headers */,
 				E9B777FC14BA329400D8DC76 /* SPTExample.h in Headers */,
 				E9B777FD14BA329400D8DC76 /* SPTExampleGroup.h in Headers */,
+				90FB2A861817412F00C5461C /* SPTXCTestInvocation.h in Headers */,
 				CDB75B35176E427900FF6631 /* SenTestLog+Specta.h in Headers */,
 				CDB75B4D176E6BA900FF6631 /* SenTestCase+Specta.h in Headers */,
 				CDF6BA4F176D3F6100212B6A /* SPTDefaultReporter.h in Headers */,
 				CDB75B47176E69F000FF6631 /* SenTestRun+Specta.h in Headers */,
 				CDF6BA37176CF53300212B6A /* SPTReporter.h in Headers */,
+				90FB2A7218173E7A00C5461C /* SPTXCTestCase.h in Headers */,
 				E9D3DEDB157A3F3D0054978E /* SPTSharedExampleGroups.h in Headers */,
 				E9B777FE14BA329400D8DC76 /* SPTSenTestCase.h in Headers */,
 				E944CA2A14C4B5E300821DED /* SPTSenTestInvocation.h in Headers */,
@@ -542,15 +613,20 @@
 				E9D9420F14B8B42A00CD833A /* Specta.h in Headers */,
 				E9D9421514B8B42A00CD833A /* SpectaSupport.h in Headers */,
 				E90EF6DE169DD75600A819CC /* SpectaUtility.h in Headers */,
+				90FB2A6B18173E4200C5461C /* XCTestCase+Specta.h in Headers */,
 				E9D9420E14B8B42A00CD833A /* Specta-Prefix.pch in Headers */,
+				90FB2A791817407E00C5461C /* XCTestLog+Specta.h in Headers */,
 				E9D9421114B8B42A00CD833A /* SPTExample.h in Headers */,
+				90FB2A7F181740A800C5461C /* XCTestRun+Specta.h in Headers */,
 				E9D9421314B8B42A00CD833A /* SPTExampleGroup.h in Headers */,
 				E9D3DEDA157A3F3D0054978E /* SPTSharedExampleGroups.h in Headers */,
+				90FB2A851817412F00C5461C /* SPTXCTestInvocation.h in Headers */,
 				CDB75B34176E427900FF6631 /* SenTestLog+Specta.h in Headers */,
 				CDB75B4C176E6BA900FF6631 /* SenTestCase+Specta.h in Headers */,
 				CDF6BA4E176D3F6100212B6A /* SPTDefaultReporter.h in Headers */,
 				CDB75B46176E69F000FF6631 /* SenTestRun+Specta.h in Headers */,
 				CDF6BA36176CF53300212B6A /* SPTReporter.h in Headers */,
+				90FB2A7118173E7A00C5461C /* SPTXCTestCase.h in Headers */,
 				E9D9421614B8B42A00CD833A /* SPTSpec.h in Headers */,
 				E9B7778014B9E15300D8DC76 /* SPTSenTestCase.h in Headers */,
 				E944CA2914C4B5E300821DED /* SPTSenTestInvocation.h in Headers */,
@@ -715,13 +791,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FB2A6E18173E4200C5461C /* XCTestCase+Specta.m in Sources */,
+				90FB2A7418173E7A00C5461C /* SPTXCTestCase.m in Sources */,
 				E9B777D514BA308B00D8DC76 /* Specta.m in Sources */,
 				E9B777D614BA308B00D8DC76 /* SPTSpec.m in Sources */,
 				CDB75B49176E69F000FF6631 /* SenTestRun+Specta.m in Sources */,
+				90FB2A7C1817407E00C5461C /* XCTestLog+Specta.m in Sources */,
 				E9B777D714BA308B00D8DC76 /* SPTExample.m in Sources */,
 				E9B777D814BA308B00D8DC76 /* SPTExampleGroup.m in Sources */,
 				CDB75B37176E427900FF6631 /* SenTestLog+Specta.m in Sources */,
 				E9B777D914BA308B00D8DC76 /* SPTSenTestCase.m in Sources */,
+				90FB2A881817412F00C5461C /* SPTXCTestInvocation.m in Sources */,
+				90FB2A82181740A800C5461C /* XCTestRun+Specta.m in Sources */,
 				E944CA2D14C4B5F600821DED /* SPTSenTestInvocation.m in Sources */,
 				E9D3DEDE157A3F470054978E /* SPTSharedExampleGroups.m in Sources */,
 				E90EF6E2169DD76400A819CC /* SpectaUtility.m in Sources */,
@@ -778,13 +859,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FB2A6D18173E4200C5461C /* XCTestCase+Specta.m in Sources */,
+				90FB2A7318173E7A00C5461C /* SPTXCTestCase.m in Sources */,
 				E9D9421014B8B42A00CD833A /* Specta.m in Sources */,
 				E9D9421714B8B42A00CD833A /* SPTSpec.m in Sources */,
 				CDB75B48176E69F000FF6631 /* SenTestRun+Specta.m in Sources */,
+				90FB2A7B1817407E00C5461C /* XCTestLog+Specta.m in Sources */,
 				E9D9421214B8B42A00CD833A /* SPTExample.m in Sources */,
 				E9D9421414B8B42A00CD833A /* SPTExampleGroup.m in Sources */,
 				CDB75B36176E427900FF6631 /* SenTestLog+Specta.m in Sources */,
 				E9B7778214B9E15A00D8DC76 /* SPTSenTestCase.m in Sources */,
+				90FB2A871817412F00C5461C /* SPTXCTestInvocation.m in Sources */,
+				90FB2A81181740A800C5461C /* XCTestRun+Specta.m in Sources */,
 				E944CA2C14C4B5F600821DED /* SPTSenTestInvocation.m in Sources */,
 				E9D3DEDD157A3F470054978E /* SPTSharedExampleGroups.m in Sources */,
 				E90EF6E1169DD76400A819CC /* SpectaUtility.m in Sources */,
@@ -903,6 +989,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -931,6 +1018,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1062,7 +1150,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Specta-Prefix.pch";
@@ -1086,7 +1177,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/Specta-Prefix.pch";

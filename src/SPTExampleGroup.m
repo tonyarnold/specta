@@ -1,6 +1,12 @@
 #import "SPTExampleGroup.h"
 #import "SPTExample.h"
-#import "SPTSenTestCase.h"
+
+#ifdef XCT_EXPORT
+  #import "SPTXCTestCase.h"
+#else
+  #import "SPTSenTestCase.h"
+#endif
+
 #import "SPTSpec.h"
 #import "SpectaUtility.h"
 #import <libkern/OSAtomic.h>
@@ -35,17 +41,25 @@ static void runExampleBlock(id block, NSString *name) {
     }
     if (!complete) {
       NSString *message = [NSString stringWithFormat:@"\"%@\" failed to invoke done() callback before timeout (%f seconds)", name, timeout];
-      SPTSenTestCase *currentTestCase = [[[NSThread currentThread] threadDictionary] objectForKey:@"SPT_currentTestCase"];
-      SPTSpec *spec = [[currentTestCase class] SPT_spec];
-      NSException *exception = [NSException failureInFile:spec.fileName atLine:(int)spec.lineNumber withDescription:message];
-      [currentTestCase failWithException: exception];
-    }
-  } else {
-    ((SPTVoidBlock)block)();
-  }
+
+      id currentTestCase = [[[NSThread currentThread] threadDictionary] objectForKey:@"SPT_currentTestCase"];
+
+      if(currentTestCase) {
+        SPTSpec *spec = [[currentTestCase class] SPT_spec]; // This could be expressed in a safer manner
+#ifdef XCT_EXPORT
+        [currentTestCase recordFailureWithDescription:message inFile:spec.fileName atLine:spec.lineNumber expected:NO]
 #else
-  ((SPTVoidBlock)block)(emptyBlock);
+        NSException *exception = [NSException failureInFile:spec.fileName atLine:(int)spec.lineNumber withDescription:message];
+        [currentTestCase failWithException:exception];
 #endif
+      }
+    } else {
+      ((SPTVoidBlock)block)();
+    }
+#else
+    ((SPTVoidBlock)block)(emptyBlock);
+#endif
+  }
 }
 
 @interface SPTExampleGroup ()

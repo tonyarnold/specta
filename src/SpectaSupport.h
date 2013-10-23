@@ -1,5 +1,11 @@
 #ifndef SPT_SUBCLASS
+
+#ifdef XCT_EXPORT
+#define SPT_SUBCLASS SPTXCTestCase
+#else
 #define SPT_SUBCLASS SPTSenTestCase
+#endif
+
 #endif
 
 #define _SPT_SpecBegin(name, file, line) \

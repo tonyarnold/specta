@@ -1,5 +1,11 @@
 #import <Foundation/Foundation.h>
+
+#ifdef XCT_EXPORT
+#import <XCTest/XCTest.h>
+#else
 #import <SenTestingKit/SenTestingKit.h>
+#endif
+
 #import "SpectaTypes.h"
 
 @class
